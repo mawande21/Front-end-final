@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="/assets/home.css">
+    <title>Ellenapp</title>
+</head>
+<body>
+    
+  <div class="row pop-up">
+    <div class="box small-6 large-centered">
+      <a href="#" class="close-button">&#10006;</a>
+      <h3>Connect with Friends</h3>
+      <p>Ellenapp is a complete live chat platform with emojis and unlimited screening.</p>
+      <p>The registration is <b>FREE</b> as long as you connected tp the internet, <strong>JOIN US</strong>.</p>
+      <p>For info contact: 0797535345 or email: ellenmanjati@gmail.com</p>
+    </div>
+  </div>
+  <div id="overlay" class="cover blur-in">
+    <h1>REGISTER NOW !!!</h1>
+    <div class="login-box">
+      <div class="lb-header">
+        <a href="#" class="active" id="login-box-link">Login</a>
+        <a href="#" id="signup-box-link">Sign Up</a>
+      </div>
+      <form class="email-login" id="signin" method="POST" onsubmit="event.preventDefault(); signin();" class="signin">
+        <div class="u-form-group">
+          <input id="from" name="name" type="text" placeholder="Username"/>
+        </div>
+        <div class="u-form-group">
+          <input name="password" type="password" data-type="password" placeholder="Password"/>
+        </div>
+        <div class="u-form-group">
+          <button type="submit">Log in</button>
+        </div>
+        <div class="u-form-group">
+          <a href="#" class="forgot-password">Forgot password?</a>
+        </div>
+      </form>
+      <form class="email-signup" id="signup" method="POST" onsubmit="event.preventDefault(); signup();" class="signup">
+        <div class="u-form-group">
+          <input  name="name" type="text" placeholder="Username"/>
+        </div>
+        <div class="u-form-group">
+          <input name="surname" type="text" placeholder="Surname"/>
+        </div>
+        <div class="u-form-group">
+          <input name="email" type="email" placeholder="Email"/>
+        </div>
+        <div class="u-form-group">
+          <input name="password" type="password" placeholder="Password"/>
+        </div>
+        <div class="u-form-group">
+          <button type="submit">Sign Up</button>
+        </div>
+    </form>
+    </div>
+  </div>
+<script src="/assets/popup.js"></script>
+<script src="/assets/home.js"></script>
+<script src="./assets/fetch.js"></script>
+</body>
+</html>

@@ -1,0 +1,86 @@
+#chat {
+    height: 500px;
+    overflow: auto;
+    font-size: 16px;
+  }
+
+  .body{
+    background-color: rgb(94, 177, 216);
+  }
+  .display-4{
+    color: rgb(8, 8, 8);
+  }
+  
+  .container > .jumbotron {
+    height: 120px;
+    padding: 1%;
+    margin: -1%;
+    background-color: rgb(101, 182, 219);
+  }
+  
+  .content {
+    box-sizing: border-box;
+    overflow: auto;
+    height: 70%;
+    width: 100%;
+    margin: 1% 0;
+    background-color: rgb(207, 207, 195);
+  }
+  
+  
+  .msg {
+    padding: 1%;
+    margin: 1%;
+    border: 1px solid var(--blue);
+    border-radius: 3px;
+    color: var(--dark);
+    width: fit-content;
+    max-width: 80%;
+  }
+  
+  .msg .head {
+    width: 100%;
+    color: var(--indigo);
+    font-weight: 350;
+    font-style: italic;
+    font-size: 12px;
+  }
+  
+  .msg .body {
+    margin: 1% 0;
+    font-size: 16px;
+  }
+  
+  .msg .footer {
+    color: rgb(239, 240, 234);
+    font-size: 12px;
+  }
+  
+  /* tools */
+  
+  .tools {
+    position: relative;
+  }
+  
+  .tools .emoji-list {
+    display: none;
+    flex-wrap: wrap;
+    position: absolute;
+    right: 2%;
+    bottom: 110%;
+    border-radius: 5px;
+    border: 1px solid gray;
+    width: 270px;
+    height: 150px;
+    overflow: auto;
+  }
+  
+  .tools .emoji-list .emoji {
+    margin: 1%;
+  }
+.container{
+  width: 80%;
+}
+#emoji{
+  color: blue;
+}
